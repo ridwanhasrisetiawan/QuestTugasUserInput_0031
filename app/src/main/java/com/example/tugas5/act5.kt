@@ -177,4 +177,14 @@ fun BiodataScreen() {
                         }
                     )
 
+                    TombolProceed(
+                        aktif = dataLengkap,
+                        onClick = { }
+                    )
+                }
+            }
+        }
+    }
+}
+
 
