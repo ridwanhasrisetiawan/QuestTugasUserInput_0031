@@ -140,4 +140,11 @@ fun BiodataScreen() {
                 ) {
                     FormHeader()
 
+                    FieldNama(
+                        namaDepan = namaDepan,
+                        onNamaDepanChange = { namaDepan = it },
+                        namaBelakang = namaBelakang,
+                        onNamaBelakangChange = { namaBelakang = it }
+                    )
+
 
