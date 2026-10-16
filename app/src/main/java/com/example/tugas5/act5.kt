@@ -158,4 +158,9 @@ fun BiodataScreen() {
                             dimensionResource(id = R.dimen.jarak_field)
                         )
                     ) {
+                        FieldTanggalLahir(
+                            tanggal = tglLahir,
+                            onTanggalChange = { tglLahir = it },
+                            modifier = Modifier.weight(1f)
+                        )
 
