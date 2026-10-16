@@ -152,4 +152,10 @@ fun BiodataScreen() {
                         onEmailChange = { email = it }
                     )
 
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(
+                            dimensionResource(id = R.dimen.jarak_field)
+                        )
+                    ) {
 
