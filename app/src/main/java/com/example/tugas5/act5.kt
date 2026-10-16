@@ -129,4 +129,15 @@ fun BiodataScreen() {
                         shape = bentukKartu
                     )
             ) {
+                Column(
+                    modifier = Modifier
+                        .verticalScroll(rememberScrollState())
+                        .padding(dimensionResource(id = R.dimen.padding_layar)),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.spacedBy(
+                        dimensionResource(id = R.dimen.jarak_komponen)
+                    )
+                ) {
+                    FormHeader()
+
 
